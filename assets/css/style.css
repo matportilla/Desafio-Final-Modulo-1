@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.cover{
+    background-image: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#Trabajos .img-trabajo {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logonav{
+    width: 6em;
+    height: auto;
+}
+.text-cg{
+    color: #28A745;
+}
+.logofooter{
+    width: 3em;
+    height: auto;
+}
+.iconmap{
+    color: #464646;;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV MP</title>
+    <link rel="icon" type="image/png" href="assets/img/apple-touch-icon.png">
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/e32af325ff.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-2 bg-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand ps-3 fw-bold" href="#">MATIAS PORTILLA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pe-3" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Quien Soy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portafolio.html">Portafolío</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section id="Portafolio">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/img/HTML - CV.png" class="d-block w-100" alt="html-cv">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>HTML</h5>
+                <p>Trabajo Fundamentos del HTML y VSCode</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/img/HTML Tienda.png" class="d-block w-100" alt="coffe Store">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Coffe Store</h5>
+                <p>Fundamentos del HTML Contenedores</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Css - Iguana.png" class="d-block w-100" alt="Iguanas">
+                <div class="carousel-caption d-none d-md-block text-light">
+                <h5>CSS</h5>
+                <p>Fundamentos CSS</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Bootstrap.png" class="d-block w-100" alt="Bootstrap">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Bootstrap</h5>
+                <p>Fundamentos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/github.png" class="d-block w-100" alt="github">
+                <div class="carousel-caption d-none d-md-block text-light">
+                <h5>Github</h5>
+                <p>Fundamentos Git, Github y Terminal</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="bg-dark"></div>
+    </section>
+    <section id="Contacto" class="container my-5">
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Doloribus
+            sapiente, autem delectus totam expedita
+            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
+            tempora quaerat?</p>
+        <form>
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <div class="my-3 text-end">
+                <button class="btn btn-dark text-light">Enviar</button>
+            </div>
+    </form>
+    </section>
+    <footer class="bg-white text-black p-5 text-center">
+      <a href="https://www.facebook.com/matias.portilla.m/?locale=es_LA" target="_blank"><img class="mb-3 p-1 img-fluid logofooter" src="assets/img/facebook.png" alt="logo"></a>
+      <a href="https://www.instagram.com/matportilla_m/" target="_blank"><img class="mb-3 p-1 img-fluid logofooter" src="assets/img/instagram.png" alt="logo"></a>
+      <a href="https://www.linkedin.com/in/matias-portilla/" target="_blank"><img class="mb-3 p-1 img-fluid logofooter" src="assets/img/linkedin.png" alt="logo"></a>
+      <p class="fw-light">© 2023 MothWorks .Todos los derechos reservados.</p>
+    </footer>
+    <!-- Java Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>      
